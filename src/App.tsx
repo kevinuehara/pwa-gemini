@@ -11,8 +11,7 @@ const getLastWord = (text: string) => {
 
 function App() {
   const [messages, setMessages] = useState([
-    { id: 1, type: "user", message: "Hello, bot!" },
-    { id: 2, type: "bot", message: "Hello, how can I assist you?" },
+    { id: 1, type: "bot", message: "Hello, how can I assist you?" },
   ]);
 
   const { transcript, listening, finalTranscript, resetTranscript } =
